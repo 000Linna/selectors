@@ -1,0 +1,17 @@
+.form {
+    background-color: lightcyan;
+    width: 400px;
+    /*внутренний отступ*/
+    padding: 10px;
+    /*скруглить углы*/
+    border-radius: 5px;
+}
+
+ul {
+    /* убрать маркеры */
+    list-style: none;
+}
+
+input:checked+span {
+    color: brown;
+}
